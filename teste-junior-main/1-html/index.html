@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teste HTML</title>
+    </head>
+    <body style='margin:0; padding:0;'>
+        <!-- menu principal -->
+        <nav id='navbar' style="height: 100;">
+            <ul style="list-style-type: none; margin-top: 25; padding: 0; overflow: hidden; display: block;">
+                <li style="float: left; margin-left:5%;">
+                    <a href="#" style="color:#000; ">
+                        <i class="fa fa-bars"></i>    
+                    </a>
+                </li>
+
+                <li style="float: left; margin-left: 40%;">
+                    <a href="#">
+                        <img src="assets/img/logo.svg" alt="imagem montanhas e sol" width="25px" style="display:block; border: #000 solid 3px; border-radius: 50%;">
+                    </a>
+                </li>
+
+                <li style="float: right; margin-right:5%;">
+                    <a href="#" style="color:#000;">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>     
+            </ul>
+        </nav>  
+
+        <!-- primeiro texto -->
+        <div id="info1">
+            <div style="margin-left:5%; margin-right:5%;">
+                <H1>Olá Mundo</H1>
+                <p style="margin-left:5%; margin-right:5%;">
+                    Lorem ipsum, dolor sit amet consectetur <span><a href="#">adipisicin</a></span> elit. Perferendis, aperiam. Facere quis nihil consequatur iusto magnam, odio officiis animi sapiente doloribus. Cum, in voluptatum explicabo magnam vero impedit quod ipsum?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem voluptatibus molestias fugiat voluptatem neque explicabo deserunt provident maxime ut nesciunt nam sit dolorem voluptate quaerat asperiores, quibusdam unde amet? Illum.
+                </p>
+            </div>
+        </div>
+        
+
+        <!-- video -->
+        <div id='video'>
+            <video width="100%" controls>
+                <source src="assets/video/video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- segundo texto -->
+        <div id="info2">
+            <div style="margin-left:5%; margin-right:5%;">
+                <h1 style="margin-left: 5%;">"</h1>
+                <p style="margin-left:5%; margin-right:10%;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab dignissimos vero incidunt velit distinctio? Necessitatibus repudiandae, ullam aspernatur dignissimos molestiae officiis aperiam quia temporibus velit esse! Cupiditate, labore aperiam!
+                </p>
+                <h1 style="text-align: right; margin-right: 15%;">"</h1>
+            </div> 
+        </div>
+
+
+        <!-- carrossel de imagens -->
+        <div id="carrosel">
+            <div style="margin-left:5%; margin-right:5%;">
+                <!-- botão ir esquerdo -->
+                <i id='controle-carrosel' class="fas fa-sort-up" style="rotate: -90deg; margin-bottom: 50px; font-size: 50px;"></i>
+                <!-- imagens carrosel -->
+                <img src="assets/img/imagem-1.png" alt="imagem ilustrativa sem nada relevante" style="">   
+                <!-- botão ir direto -->
+                <i id='controle-carrosel' class="fas fa-sort-up" style="rotate: 90deg; margin-bottom: 50px; font-size: 50px;"></i>
+                <!-- painel com idicação onde está -->
+                <div id='painel-carrosel' style="display: flex; overflow: auto;">
+                    <div style="margin:auto; height: 15px; width: 15px; background-color: #000; border-radius: 50%;"></div>
+                    <div style="margin:auto; height: 15px; width: 15px; background-color: #000; border-radius: 50%;"></div>
+                    <div style="margin:auto; height: 15px; width: 15px; background-color: #000; border-radius: 50%;"></div>
+                    <div style="margin:auto; height: 15px; width: 15px; background-color: #000; border-radius: 50%;"></div>
+                    <div style="margin:auto; height: 15px; width: 15px; background-color: #000; border-radius: 50%;"></div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- menu dropdown -->
+        <div id="dropdown">
+            <div style="margin-top: 10%; margin-left: 5%; margin-right: 5%;">
+                <button id='btn-dropdown' type='button' onclick="" style="background-color: #ccc; color:#000; width: 100%; height: 50px;">Lorem ipsum dolor sit         +</button>
+            </div>
+
+            <!-- simulação dropdown aberto -->
+
+            <div id="dropdown" style=" margin-left: 5%; margin-right: 5%; background-color: #eee;">
+                <p id='btn-dropdown' style="margin-top:0; padding:10px ">Lorem ipsum dolor sit2</p>
+                <p style='padding:0px 10px 10px 10px;'>(texto) Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus incidunt accusantium distinctio quam porro eveniet cupiditate itaque molestias ab deserunt? Sed similique mollitia dolorum tenetur deleniti fuga culpa ducimus facilis?</p>
+            </div>
+        </div>
+            
+        <!-- carrossel de Parceiros -->
+        <div id='parceiros'>
+            <div style="margin-top: 10%; margin-left:5%; margin-right:5%;">
+                <div id='carrosel-2' style="width:100%;">
+                    <!-- elementos superiores -->
+                    <div style="padding:10px; margin-left: 40%;">
+                        <!-- botão ir esquerdo -->
+                        <i id='controle-carrosel' class="fas fa-sort-up" style="rotate: -90deg; margin-bottom: 50px; font-size: 50px;"></i>
+                        <!-- imagens carrosel -->
+                        <img src="assets/img/imagem-2.png" alt="imagem ilustrativa sem nada relevante"> 
+                        <!-- botão ir direto -->
+                        <i id='controle-carrosel' class="fas fa-sort-up" style="rotate: 90deg; margin-bottom: 50px; font-size: 50px;"></i>
+                    </div>
+                    <!-- texto -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste alias esse amet, ea, aperiam quibusdam, ad voluptate consequatur voluptas qui perferendis hic doloribus itaque velit enim. Laboriosam, <a href="#">delectus nihil</a>!</p>  
+                    <!-- painel com idicação onde está -->
+                    <div id='painel-carrosel' style="display: flex; overflow: auto;">
+                        <div style="margin:auto; height: 15px; width: 15px; background-color: #000; border-radius: 50%;"></div>
+                        <div style="margin:auto; height: 15px; width: 15px; background-color: #000; border-radius: 50%;"></div>
+                        <div style="margin:auto; height: 15px; width: 15px; background-color: #000; border-radius: 50%;"></div>
+                        <div style="margin:auto; height: 15px; width: 15px; background-color: #000; border-radius: 50%;"></div>
+                        <div style="margin:auto; height: 15px; width: 15px; background-color: #000; border-radius: 50%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contato -->
+        <div id="contato">
+            <div style="margin-top: 10%; margin-left:5%; margin-right:5%;">
+                <form id='formulario-contato' action="" method="POST" style="border: 1px solid #ccc; border-radius:1em; padding: 20px;">
+                    <div>
+                        <label for='nome' style="display: block;">Nome:</label>                
+                        <input id='nome' name='nome' type="text" style="width: 100%; border: 1px solid #ccc">
+                    </div>
+
+                    <div>
+                        <label for='email' style="display: block;">Email:</label>
+                        <input id='email' name='email' type="email" style="width: 100%; border: 1px solid #ccc">
+                    </div>
+
+                    <div>
+                        <label for='telefone' style="display: block;">Telefone:</label>
+                        <input id='tel' name='tel' type="text" style="width: 100%; border: 1px solid #ccc">
+                    </div>
+
+                    <div>
+                        <label for='mensagem' style="display: block;">Mensagem:</label>
+                        <textarea id='mensagem' name="mensagem" row='4' style="width: 100%; border: 1px solid #ccc"></textarea>
+                    </div>
+
+                    <div id="btn-formulario" style="padding: 10px;">
+                        <button type="submit" value="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- rodapé -->
+        <footer id='rodapé' style="margin-top:10%;">
+            <!-- Endereço -->
+            <div id="dados">
+                <p>Av. Dr. Figueiredo Mascarenhas, 94</p>
+                <p>Três Vendas, Pelotas - RS</p>
+                <p>96055-510</p>
+                <p>(53) 3030-3030</p>
+            </div>
+            <!-- navbar rodapé -->
+            <div id="navbarFotter" style="padding-bottom: 50px;">
+                <ul style="list-style-type: none; margin: 0; padding: 8; overflow: hidden;">
+                    <li style="float: left; margin-left: 5%;">
+                        <a href="#"  style="padding: 8px;">
+                            <img src="assets/img/facebook.svg" alt="logo facebook" width="10px"> 
+                        </a>
+                    </li>
+    
+                    <li style="float: left; margin-left: 30%;">
+                        <a href="#"  style="padding: 8px;">
+                            <img src="assets/img/instagram.svg" alt="logo instagram" width="20px"> 
+                        </a>
+                    </li>
+    
+                    <li style="float: right; margin-right: 5%">
+                        <a href="#" style="padding: 8px;" >
+                            <img src="assets/img/medium.svg" alt="logo medium" width="20px">
+                        </a>
+                    </li>
+    
+                    <li style="float: right; margin-right: 30%">
+                        <a href="#"  style="padding: 8px;">
+                            <img src="assets/img/linkedin.svg" alt="logo linkedin" width="20px">       
+                        </a>
+                    </li>
+                </ul>
+            </div>            
+        </footer>
+
+        <script src="https://kit.fontawesome.com/d6a682b978.js" crossorigin="anonymous"></script>
+    </body>
+</html>
